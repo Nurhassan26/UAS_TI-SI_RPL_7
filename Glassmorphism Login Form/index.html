@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="#" method="post">
+      <h2>Login</h2>
+        <div class="input-field">
+        <input type="email" name="email" required>
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" required>
+        <label>Password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <a href="register.html">Register</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html> -->
+
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration and Login Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Formulir Registrasi -->
+    <form action="#" method="post" id="registerForm">
+      <h2>Register</h2>
+      <div class="input-field">
+        <input type="text" name="fullname" required>
+        <label>Full Name</label>
+      </div>
+      <div class="input-field">
+        <input type="email" name="email" required>
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" required>
+        <label>Password</label>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+
+    <!-- Formulir Login -->
+    <form action="#" method="post" id="loginForm" style="display: none;">
+      <h2>Login</h2>
+      <div class="input-field">
+        <input type="email" name="email" required>
+        <label>Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password" required>
+        <label>Password</label>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
